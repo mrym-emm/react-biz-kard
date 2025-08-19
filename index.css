@@ -1,0 +1,114 @@
+body {
+  margin: 0px;
+  border: 1px solid white;
+  background-color: #23252c;
+  color: whitesmoke;
+  font-family: "Inter", sans-serif;
+  padding: 20px 10px;
+}
+
+main {
+  width: 20rem;
+  padding: 0;
+  /* border: 5px solid wheat; */
+  box-shadow: 0px 0px 3px wheat;
+  border-radius: 15px;
+  margin: 0px auto;
+  height: 44rem;
+  background-color: #1a1b21;
+}
+
+header > img {
+  width: 100%;
+  border-radius: 13px;
+}
+
+.info-container {
+  text-align: center;
+  line-height: 0.4rem;
+  /* border: 1px solid white; */
+}
+
+.info-container h2 {
+  margin-top: 1rem;
+}
+
+.info-job {
+  color: #f3bf99;
+  font-size: 16px;
+}
+
+.info-link a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 10px;
+}
+
+.soc-link {
+  color: #918e9b;
+}
+
+.soc-link i {
+  font-size: 2rem;
+  /* border: 1px solid white; */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+
+  /* border: 1px solid wheat; */
+}
+
+footer {
+  background-color: #161619;
+  height: 4rem;
+  margin-top: 35px;
+  border-radius: 10px;
+}
+
+.button-info {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.button-info a {
+  text-decoration: none;
+  padding: 10px 10px;
+  width: 90px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.button-email {
+  color: #1e1f26;
+  background-color: whitesmoke;
+}
+
+.button-linkedin {
+  color: whitesmoke;
+  background-color: #5093e2;
+}
+
+.container {
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+}
+
+.heading {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.heading-content {
+  font-size: 0.7rem;
+  margin: 0;
+  margin-top: 5px;
+  max-width: 15rem;
+}
